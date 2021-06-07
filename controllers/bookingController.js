@@ -7,6 +7,7 @@ const factory = require('./handlerFactory');
 
 exports.getCheckoutSession = catchAsync(async (req, res, next) => {
   // 1) Get the currently booked tour
+  
   const tour = await Tour.findById(req.params.tourId);
   // console.log(tour);
 
@@ -14,13 +15,13 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
   const session = await stripe.checkout.sessions.create({
     payment_method_types: ['card'],
 
-    // success_url: `${req.protocol}://${req.get('host')}/my-tours/?tour=${
-    //   req.params.tourId
-    // }&user=${req.user.id}&price=${tour.price}`,
+   //  success_url: `${req.protocol}://${req.get('host')}/my-tours/?tour=${
+   //    req.params.tourId
+   //  }&user=${req.user.id}&price=${tour.price}`,
 
     success_url: `${req.protocol}://${req.get('host')}/my-tours?alert=booking`,
 
-    cancel_url: `${req.protocol}://${req.get('host')}/tour/${(tour.name).toLowerCase().replace(/ /g, "-")}`, 
+    cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
 
     customer_email: req.user.email,
 
@@ -28,7 +29,7 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
 
     line_items: [
       {
-        name: `${tour.name} Tour`,
+        name: `${(tour.name).toLowerCase().replace(/ /g, "-")} Tour`,
         description: tour.summary,
         images: [`${req.protocol}://${req.get('host')}/img/tours/${tour.imageCover}`],
         amount: tour.price * 100,

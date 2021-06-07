@@ -8607,7 +8607,7 @@ var _alerts = require("./alerts");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable */
-var stripe = Stripe('pk_test_Ntj6ZQJ0JEt4N3E8a59fQ8Dt003kvPTdWC');
+var stripe = Stripe('pk_test_e4XzLL6cWjpsb1dqp9HjoKvP00BS6cmRSc');
 
 var bookTour = function bookTour(tourId) {
   var session;
