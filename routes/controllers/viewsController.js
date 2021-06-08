@@ -28,7 +28,7 @@ exports.getTour = catchAsync(async (req, res, next) => {
   // 1) Get the data, for the requested tour (including reviews and guides)
   const reqName = req.params.slug;
   
-  const tour = await Tour.findOne({ name: reqName.replace(/-/g, " ").replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase())}).populate({
+  const tour = await Tour.findOne({ slug: req.params.slug }).populate({
   path: 'reviews',
   fields: 'review rating user'
   });
