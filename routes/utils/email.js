@@ -8,7 +8,7 @@ module.exports = class Email {
     this.to = user.email;
     this.firstName = user.name.split(' ')[0];
     this.url = url;
-    this.from = `Lakshman Gope <${process.env.EMAIL_FROM}>`;
+    this.from = `Basak ER <${process.env.EMAIL_FROM}>`;
   }
 
   // Create different transports for different environments
@@ -57,7 +57,7 @@ module.exports = class Email {
   }
 
   async sendWelcome() {
-    await this.send('welcome', 'Welcome to the Natours Family!');
+    await this.send('welcome', 'Welcome to the Basaktour Family!');
   }
 
   async sendPasswordReset() {

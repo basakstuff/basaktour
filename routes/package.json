@@ -1,5 +1,5 @@
 {
-  "name": "node-natours",
+  "name": "node-basaktour",
   "version": "1.0.0",
   "description": "A mockup landing page for a travel agency startup.",
   "main": "app.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lgope/Natours.git"
+    "url": "git+https://github.com/basakstuff/basaktour.git"
   },
-  "author": "Lakshman Gope",
+  "author": "Basak ER",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lgope/Natours/issues"
+    "url": "https://github.com/basakstuff/basaktour/issues"
   },
-  "homepage": "https://github.com/lgope/Natours#readme",
+  "homepage": "https://github.com/basakstuff/basaktour#readme",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
     "a": "^2.1.2",
