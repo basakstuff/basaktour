@@ -277,7 +277,7 @@ body {
 }
 
 .header {
-  background-color: #444;
+  background-color: #f7f7f7;
   padding: 0 5rem;
   height: 8rem;
   position: relative;
@@ -840,7 +840,7 @@ body {
 .nav__el,
 .nav__el:link,
 .nav__el:visited {
-  color: #f7f7f7;
+  color: #000000;
   text-transform: uppercase;
   font-size: 1.6rem;
   text-decoration: none;
