@@ -1,5 +1,5 @@
 {
-  "homepage": "https://basakstuff.github.io/basaktour/",
+  "homepage": "https://github.com/basakstuff/basaktour#readme",
   "name": "node-basaktour",
   "version": "1.0.0",
   "description": "A mockup landing page for a travel agency startup.",
@@ -21,12 +21,13 @@
   "bugs": {
     "url": "https://github.com/basakstuff/basaktour/issues"
   },
-  "homepage": "https://github.com/basakstuff/basaktour#readme",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
+    "@sendgrid/mail": "^7.4.4",
     "a": "^2.1.2",
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
+    "bearer-token": "^2.0.2",
     "body-parser": "^1.19.0",
     "chalk": "^4.0.0",
     "compression": "^1.7.4",
