@@ -15,7 +15,7 @@
 
 ## Deployed Version
 
-Live demo (Feel free to visit) 👉 : Coming Soon!
+Live demo (Feel free to visit) 👉 : https://basaktour.herokuapp.com/
 
 ## Key Features
 
