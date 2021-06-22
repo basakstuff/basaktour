@@ -29,17 +29,29 @@ Live demo (Feel free to visit) 👉 : https://basaktour.herokuapp.com/
 
 ## Demonstration
 
-#### Home Page :
+#### Home Page : 
+![ScreenRecorderProject66_3](https://user-images.githubusercontent.com/25417307/123008841-4e8f5880-d3c4-11eb-8d36-a905333ccccc.gif)
 
-#### Tour Details :
+
+#### Tour Details : 
+![ScreenRecorderProject67](https://user-images.githubusercontent.com/25417307/123008925-7aaad980-d3c4-11eb-83ec-8dac84f980df.gif)
+
 
 #### Payment Process :
+![ScreenRecorderProject68](https://user-images.githubusercontent.com/25417307/123009176-e8570580-d3c4-11eb-9004-05c318d6faf9.gif)
+
 
 #### Booked Tours :
+![Basaktour_My_Tours_-_2021-06-23_01 47 30](https://user-images.githubusercontent.com/25417307/123009232-fefd5c80-d3c4-11eb-81cb-f3471f77c97b.png)
+
+
 
 #### User Profile :
+![Basaktour_Your_account_-_2021-06-23_01 49 22](https://user-images.githubusercontent.com/25417307/123009380-408e0780-d3c5-11eb-9a29-2f09bbcfe02d.png)
+
 
 #### Admin Profile :
+![Basaktour_Your_account_-_2021-06-23_01 48 15](https://user-images.githubusercontent.com/25417307/123009291-1b00fe00-d3c5-11eb-83ff-608e9ee250b6.png)
 
 ## How To Use
 
